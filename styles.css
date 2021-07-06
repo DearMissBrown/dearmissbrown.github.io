@@ -1,0 +1,95 @@
+.pad {
+  padding: 1rem;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  flex-direction: column;
+}
+
+.title {
+  font-size: 4rem;
+  overflow-wrap: break-word;
+  font-weight: bold;
+}
+
+.head {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.sub-head {
+  font-size: 1.5rem;
+}
+
+.content {
+  font-size: 1.3rem;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Mobile sizes: scaled by 2.5 */
+
+.mobile .pad {
+  padding: 2.5rem!important;
+}
+
+.mobile .top {
+  margin-top: -10rem;
+}
+
+.mobile .title {
+  font-size: 10rem;
+}
+
+.mobile .head {
+  font-size: 6.25rem;
+}
+
+.mobile .sub-head {
+  font-size: 3.75rem;
+}
+
+.mobile .content {
+  font-size: 3.25rem;
+}
+
+.mobile .contact i {
+  font-size: 7.5rem;
+}
+
+.mobile .contact a {
+  min-height: 11.875rem;
+}
+
+.mobile .bio i {
+  font-size: 12.5rem;
+}
+
+.mobile .left-push, .mobile .right-push {
+  margin: auto;
+}
