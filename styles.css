@@ -1,5 +1,28 @@
+#top {
+  color: white;
+  padding: 5rem;
+}
+
+.white, .white a {
+  color: white;
+}
+
+.bg-cloud {
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%), url("cloud-vanilla.jpg");
+  background-blend-mode: color;
+}
+
+.grad-bg {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
 .full-height {
   min-height: 100vh;
+}
+
+.full-width {
+  min-width: 100%;
 }
 
 .pad {
@@ -12,6 +35,10 @@
 
 .no-margin {
     margin: 0;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
 }
 
 .center {
@@ -43,6 +70,7 @@
 
 .content {
   font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .quicksand {
